@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+#footer{
+  background-color: #333;
+  bottom: 0;
+  left: 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+.footer-list{
+  overflow: hidden;
+  list-style-type: none;
+}
+
+.footer-list-li{
+  float: left;
+}
+.contact-container{
+  background-color: #333;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+  width:450px;
+  height:auto;
+  margin-right: 0px;
+ }
+.contact-us{
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-style: underline;
+  font-weight: bolder;
+  margin: 10px 0px 10px 10px;
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid white;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  color: white;
+}
+.contact-p{
+  text-decoration: none;
+  padding: 10px;
+  margin: 0px 10px;
+}
+#map{
+  width: 400px;
+  height: 200px;
+}

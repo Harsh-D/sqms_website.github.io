@@ -1,0 +1,90 @@
+<!Doctype HTML>
+<html>
+<html lang="en">
+<head>
+  <title>SQMS| News and events </title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>SQMS | Six Sigma</title>
+   <link rel="stylesheet" href="styles_test6.css" type="text/css">
+   <link rel="stylesheet" href="style_footer.css" type="text/css">
+   <link rel="stylesheet" href="slideshow.css" type="text/css">
+   <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet">
+   <!-- Add icon library -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+<body onLoad="scrollDiv_init()">
+  <!-- Start of header -->
+  <div class="container">
+  <!-- Start of menu bar code -->
+    <div class="navbar">
+        <a href="#">Contact Us</a>
+        <a href="C:\Users\Lenovo\Desktop\SQMS\test6\clients.html">Clients</a>
+        <a href="#">Career</a>
+        <a href="C:\Users\Lenovo\Desktop\SQMS\test6\photo_gallery.html" target="_self">Photo Gallery</a>
+        <a href="C:\Users\Lenovo\Desktop\SQMS\test6\news_and_events.html">News & Events</a>
+        <a href="C:\Users\Lenovo\Desktop\SQMS\test6\Training_pg1.html">Training & Courses</a>
+        <div class="dropdown">
+           <button class="dropbtn">About Us</button>
+           <div class="dropdown-content">
+              <a href="C:\Users\Lenovo\Desktop\SQMS\test6\company_profile.html">Comapny Profile</a>
+              <a href="#">Mission</a>
+              <a href="#">Vision</a>
+              <a href="C:\Users\Lenovo\Desktop\SQMS\test6\director_corner.html">Director's Corner</a>
+          </div>
+        </div>
+      <a href="C:\Users\Lenovo\Desktop\SQMS\test6\home_page.html" id="home-padding" target="_self">Home</a>
+      <a href="#" id="brand-name">SQMS Six Sigma</a>
+      <a href="#" id="brand-logo"></a>
+    </div>
+  <!-- End of menu bar code -->
+</div>
+
+<!-- start of social icons -->
+<div class="social-media-icons">
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-twitter"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-linkedin"></a>
+</div>
+
+<br>
+<h1 align="center">News And Events</h1>
+<ul>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+<div id="footer">
+ <ul class="footer-list">
+   <li class="footer-list-li"><div class="contact-container">
+    <h1 class="contact-us">Contact Us:</h1>
+    <p style="font-size:17px;font-family: 'Oxygen', sans-serif;margin:0px 20px;font-weight:bold;color:white">Shreyas Quality Management Systems</p>
+    <p class="contact-p">Address: 11, Tulsi Vihar, Third Floor, Abhyankar Nagar Main Road, Abhyankar Nagar Nagpur- 440010.</p>
+    <p class="contact-p">Telefax : 0712-2240012, 09822469560</p>
+    <p class="contact-p">E-Mail : sqmslakhe@gmail.com info@sqmsindia.com</p>
+    <p class="contact-p">Website : www.sqmsindia.com</p>
+  </div></li>
+  <li class="footer-list-li" style="margin-left: 235px">
+    <h1 class="contact-us" style="margin-right: 10px">Map</h1>
+    <div id="map"></div>
+  </li>
+  <script>
+  function myMap() {
+       var mapCanvas = document.getElementById("map");
+       var myCenter = new google.maps.LatLng(21.127188, 79.058144);
+       var mapOptions = {center: myCenter, zoom: 16};
+       var map = new google.maps.Map(mapCanvas,mapOptions);
+       var marker = new google.maps.Marker({
+       position: myCenter,
+       animation: google.maps.Animation.BOUNCE
+    });
+    marker.setMap(map);
+  }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0LgAiZv8AOb97egZ89jQhD-VoYGz0FBM&callback=myMap"></script>
+</div>
+
+</body>
+</html>
